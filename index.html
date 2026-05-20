@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore IS - Login</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="auth-wrapper">
+    <div class="glass-panel auth-card">
+      <div class="auth-header">
+        <h1>TechStore IS</h1>
+        <p>Welcome back! Please login to your account.</p>
+      </div>
+      <form action="dashboard.html" method="GET">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" class="form-control" placeholder="Enter 'admin'" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="form-control" placeholder="••••••••" required>
+        </div>
+        <div class="form-group flex-between text-sm">
+          <label style="display: flex; align-items: center; gap: 0.5rem; margin: 0; font-weight: 400; cursor: pointer;">
+            <input type="checkbox"> Remember me
+          </label>
+          <a href="forgot-password.html">Forgot password?</a>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign In <i data-lucide="arrow-right" style="width: 18px; margin-left: 8px;"></i></button>
+      </form>
+    </div>
+  </div>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

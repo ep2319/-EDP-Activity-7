@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - TechStore IS</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="logo"><i data-lucide="cpu"></i> TechStore</div>
+      <nav class="nav-links">
+        <a href="dashboard.html" class="nav-item"><i data-lucide="layout-dashboard"></i> Dashboard</a>
+        <a href="reports.html" class="nav-item"><i data-lucide="file-bar-chart"></i> Reports</a>
+        <a href="about.html" class="nav-item active"><i data-lucide="info"></i> About Program</a>
+      </nav>
+      <div class="user-profile">
+        <div class="avatar">A</div>
+        <div class="user-info"><p>System Admin</p><span>admin@techstore.local</span></div>
+        <a href="index.html" style="margin-left: auto; color: var(--text-muted);"><i data-lucide="log-out"></i></a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <h2>About The Program</h2>
+      </header>
+
+      <div class="glass-panel" style="padding: 3rem; max-width: 800px; margin: 0 auto; text-align: center;">
+        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary), var(--secondary)); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem;">
+          <i data-lucide="cpu" style="width: 40px; height: 40px; color: white;"></i>
+        </div>
+        <h1 style="font-family: 'Outfit'; font-size: 2.5rem; margin-bottom: 1rem;">TechStore Information System</h1>
+        <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem;">Version 1.0.0 | Release Build</p>
+        
+        <div style="text-align: left; background: rgba(0,0,0,0.2); padding: 2rem; border-radius: 1rem; margin-bottom: 2rem;">
+          <h3 style="margin-bottom: 1rem; font-family: 'Outfit'; color: var(--primary);">System Overview</h3>
+          <p style="margin-bottom: 1rem;">TechStore IS is a modern, responsive, glassmorphism-inspired administrative interface designed for inventory and order tracking. It implements a robust architecture connecting dynamic dashboard metrics, order management, and reporting to the underlying <code>tech_store</code> database.</p>
+          <ul style="list-style: none; padding-left: 0; color: var(--text-muted);">
+            <li style="margin-bottom: 0.5rem;"><i data-lucide="check-circle" style="width: 16px; color: var(--success); vertical-align: middle; margin-right: 8px;"></i> Customer Management</li>
+            <li style="margin-bottom: 0.5rem;"><i data-lucide="check-circle" style="width: 16px; color: var(--success); vertical-align: middle; margin-right: 8px;"></i> Real-time Database Views Integrations</li>
+            <li style="margin-bottom: 0.5rem;"><i data-lucide="check-circle" style="width: 16px; color: var(--success); vertical-align: middle; margin-right: 8px;"></i> Low Stock Product Alerts & Triggers</li>
+          </ul>
+        </div>
+        
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          Designed natively with HTML & modern CSS.
+        </p>
+      </div>
+    </main>
+  </div>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

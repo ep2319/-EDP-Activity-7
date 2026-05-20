@@ -116,6 +116,19 @@ a:hover {
   color: var(--text-muted);
 }
 
+.auth-footer {
+  margin-top: 1.75rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.auth-footer span {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 .form-group {
   margin-bottom: 1.5rem;
 }
